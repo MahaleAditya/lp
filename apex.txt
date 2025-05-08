@@ -1,0 +1,24 @@
+<!-- Visualforce Page -->
+<apex:page controller="Calculator">
+    <apex:form >
+        <apex:pageMessages />
+        <apex:pageBlock title="Simple Calculator">
+            <apex:pageBlockSection columns="2">
+                <apex:inputText label="First Number" value="{!num1}" />
+                <apex:inputText label="Second Number" value="{!num2}" />
+
+                <apex:selectList value="{!operation}" size="1" label="Operation">
+                    <apex:selectOptions value="{!operations}"/>
+                </apex:selectList>
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Calculate" action="{!calculate}" rerender="resultBlock"/>
+            </apex:pageBlockButtons>
+
+            <apex:outputPanel id="resultBlock">
+                <apex:outputText value="Result: {!result}" rendered="{!NOT(ISNULL(result))}"/>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
