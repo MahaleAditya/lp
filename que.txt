@@ -1,0 +1,107 @@
+🔹 Artificial Intelligence (AI) Viva Questions & Answers
+Unit 1: Introduction & Agents
+Q1. What is Artificial Intelligence?
+A1. AI is the simulation of human intelligence in machines that are programmed to think, learn, and solve problems.
+
+Q2. What is an intelligent agent?
+A2. An intelligent agent perceives its environment and takes actions to maximize its chances of success.
+
+Q3. Define rationality in AI.
+A3. Rationality is doing the right thing, given what the agent knows.
+
+Unit 2: Problem Solving using Search
+Q4. Difference between informed and uninformed search?
+A4. Uninformed search has no domain knowledge (e.g., BFS, DFS); informed uses heuristics (e.g., A*, Greedy).
+
+Q5. What is a heuristic function?
+A5. A function that estimates the cost of the cheapest path from the current node to the goal.
+
+Q6. What is A* search?
+A6. A* search uses f(n) = g(n) + h(n) where g(n) is the cost to reach node n and h(n) is the estimated cost from n to goal.
+
+Unit 3: Adversarial Search & Games
+Q7. What is alpha-beta pruning?
+A7. It reduces the number of nodes evaluated in minimax by pruning branches that won't affect the outcome.
+
+Q8. What is a Constraint Satisfaction Problem (CSP)?
+A8. A problem defined by variables, domains, and constraints (e.g., Sudoku, Map coloring).
+
+Unit 4: Knowledge Representation
+Q9. Difference between propositional and first-order logic?
+A9. Propositional logic deals with simple true/false values. First-order logic includes predicates, quantifiers, and relations.
+
+Q10. What is the Wumpus World?
+A10. A classic AI environment used to demonstrate logical agents navigating using perception.
+
+Unit 5: Reasoning
+Q11. What is unification?
+A11. Unification is a process in logic to make different logical expressions identical by finding a substitution.
+
+Q12. Difference between forward and backward chaining?
+A12. Forward starts from facts and applies rules to reach a goal; backward starts from goals and checks if facts support it.
+
+Unit 6: Planning
+Q13. What is automated planning?
+A13. Planning is the process of choosing a sequence of actions to achieve a goal.
+
+Q14. What is STRIPS?
+A14. A planning language that defines actions in terms of preconditions and effects.
+
+🔹 Cloud Computing (CC) Viva Questions & Answers
+Unit 1: Introduction
+Q15. What is cloud computing?
+A15. Delivery of computing services (servers, storage, databases, etc.) over the Internet (the “cloud”).
+
+Q16. Name cloud service models.
+A16. SaaS, PaaS, IaaS.
+
+Q17. Name deployment models in cloud computing.
+A17. Public, Private, Hybrid, Community.
+
+Unit 2: Data Storage
+Q18. What is a Storage Area Network (SAN)?
+A18. A high-speed network that provides access to consolidated block-level data storage.
+
+Q19. Difference between NAS and SAN?
+A19. NAS is file-level storage, SAN is block-level storage.
+
+Unit 3: Virtualization
+Q20. What is virtualization?
+A20. Virtualization allows multiple virtual machines to run on a single physical machine.
+
+Q21. What is hypervisor?
+A21. Software that creates and runs virtual machines (e.g., VMware, Hyper-V, Xen).
+
+Unit 4: Cloud Platforms
+Q22. What is AWS EC2?
+A22. Amazon's Elastic Compute Cloud – allows users to rent virtual machines.
+
+Q23. What is Google App Engine?
+A23. A platform to develop and host web apps in Google-managed data centers.
+
+Unit 5: Security in Cloud
+Q24. What are the main security concerns in cloud computing?
+A24. Data loss, data breaches, insecure APIs, account hijacking.
+
+Q25. Explain CIA triad in cloud security.
+A25. Confidentiality, Integrity, and Availability – the foundational model for information security.
+
+Unit 6: Advanced Techniques
+Q26. What is Docker?
+A26. A containerization platform that packages software into containers.
+
+Q27. What is Kubernetes?
+A27. An open-source container orchestration system for automating deployment, scaling, and management of apps.
+
+Q28. What is edge computing?
+A28. Data processing that happens at the edge of the network, near the data source.
+
+🔹 Real-World and Practical Based Viva
+Q29. How is AI used in daily life?
+A29. Personal assistants (Siri, Alexa), recommendation systems (Netflix, YouTube), spam filters, facial recognition.
+
+Q30. How is cloud used in real-world applications?
+A30. Email, Google Drive, Netflix streaming, online banking, remote work apps like Zoom and Slack.
+
+Q31. Give an example of cloud + AI integration.
+A31. Google Cloud AI Platform – used to build, train, and deploy machine learning models.
